@@ -22,4 +22,5 @@ var sqls = []string{
 	"delete from daily_ip_info where created_at>'%s' and created_at<'%s' and cluster='%s'",
 	"delete from daily_istio where created_at>'%s' and created_at<'%s' and cluster='%s'",
 	"delete from daily_cluster_info where created_at>'%s' and created_at<'%s' and name='%s'",
+	"delete from daily_server_details where created_at>'%s' and created_at<'%s'",
 }
